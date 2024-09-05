@@ -3,14 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -41,7 +36,6 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -71,4 +65,31 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+section {
+  background-color: #5a7791;
+  height: 680px;
+}
+
+nav {
+  background-color: rgb(28, 40, 65)
+}
+
+body {
+  background-color: #5a7791;
+  
+}
+
+footer {
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

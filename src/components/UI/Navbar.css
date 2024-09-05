@@ -1,0 +1,28 @@
+.header {
+  width: 100%; 
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(110, 102, 62);
+}
+
+nav a:active {
+  color: #5f1c1c;
+}
