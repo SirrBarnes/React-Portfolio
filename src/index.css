@@ -93,3 +93,8 @@ footer div {
   flex-direction: row;
   align-items: center;
 }
+
+.cardImage {
+  width: 600px;
+  height: 400px;
+}
