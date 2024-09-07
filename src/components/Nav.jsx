@@ -9,7 +9,7 @@ const Nav = () => {
     <header>
       <nav>
         <h2 className = "header">Sergio Torres</h2>
-        <Link to="/about" className = "activeLink">About</Link>
+        <Link to="/" className = "activeLink">About</Link>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/resume">Resume</Link>
