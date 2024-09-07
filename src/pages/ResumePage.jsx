@@ -1,4 +1,4 @@
-import '../components/ui/Resume.css';
+import '../components/UI/Resume.css';
 
 const ResumePage = () => {
     return (
